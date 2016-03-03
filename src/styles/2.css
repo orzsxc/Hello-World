@@ -1,0 +1,810 @@
+@CHARSET "UTF-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:14px;
+	color:#333;
+	width:1300px;
+	height:900px;
+	margin:10px auto;
+	position:relative;
+	background:#fff;
+
+}
+ul {
+	list-style-type:none;
+}
+img {
+	border:none;
+}
+#header {
+	margin-left:180px;
+	width:900px;
+	height:200px;
+	background:url(../images/logo.jpg) no-repeat 15px 15px;
+	border:1px solid #aaa;
+	margin-bottom:10px;
+}
+#header ul {
+	margin-top:170px;
+	margin-left:460px;
+	width:430px;
+	
+    	
+}
+#header ul li {
+	float:left;
+	width:70px;
+	height:20px;
+
+}
+#header ul li  a {
+	color:#333;
+	text-decoration:none;
+}
+#sidebar {
+	margin-left:180px;
+	width:300px;
+	height:600px;
+	float:left;
+	margin-bottom:10px;
+}
+#sidebar h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+}
+#sidebar div {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:250px;
+}
+
+#sidebar div dl{
+	width:280px;
+	padding-top:30px;
+	padding-left:75px;
+	
+}
+#sidebar div dl dt  {
+	display:block;
+	padding-left:30px;
+}
+#sidebar div dl dd {
+	padding-top:5px;
+}
+
+#content {
+	margin-right:217px;
+	width:580px;
+	height:600px;
+	float:right;
+	margin-bottom:10px;
+}
+#content h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+}
+#content div {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:550px;
+	
+	
+	
+}
+
+
+
+
+
+
+#content div p {
+	height:40px;
+	
+	
+	line-height:40px;
+	margin-left:100px;
+}
+#content div p a {
+	text-decoration:none;
+	color:#f00;
+}
+#content div p a:hover {
+	color:green;
+	text-decoration:underline;
+}
+#content div ul {
+	width:80%;
+	margin:0 auto;
+	margin-top:10px;
+}
+#content div ul li {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dashed #999;
+}
+#content div ul li a{
+	text-decoration:none;
+	color:#333;
+}
+#content div ul li a:hover{
+		color:green;
+	text-decoration:underline;
+	
+}
+#content div ul li span {
+	float:right;
+}
+
+#content div ul li img{
+	margin-top:4px;
+}
+
+
+
+
+
+
+
+#footer {
+	margin-left:180px;
+	width:900px;
+	height:60px;
+	clear:both;
+	border-top:1px solid #999;
+}
+#footer p {
+	text-align:center;
+	padding-top:10px;
+}
+
+/*注册样式*/
+#reg {
+	margin-left:180px;
+	width:900px;
+	height:600px;
+}
+#reg h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#reg div {
+	border-left:1px solid #bbb;
+	border-right:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	height:550px;
+}
+#reg div dl {
+	width:300px;
+	margin:0px auto;
+	padding-top:50px;
+	margin-left:320px;
+}
+#reg div dl dt {
+	
+	font-weight:bold;
+}
+#reg div dl dd {
+	padding-top:10px;
+}
+#reg div dl dd input.text {
+	width:180px;
+	height:18px;
+
+	background:#fff;
+}
+#reg div dl dd input.yzm {
+	width:60px;
+
+}
+#reg div dl dd img.yzm {
+	margin-left:10px;
+	float:bottom;
+}
+
+#reg div dl dd img.face {
+	margin-left:10px;
+}
+#reg div dl dd input.submit2 {
+	width:60px;
+	height:25px;
+	background:#fff;
+	cursor:pointer;
+	margin-left:65px;
+	
+}
+/*博友样式*/
+#blog {
+	margin-left:180px;
+	width:900px;
+	height:800px;
+}
+#blog h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#blog div {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:750px;
+}
+#blog div form {
+	height:30px;
+	line-height:30px;
+	text-align:right;
+	padding-right:50px;
+}
+
+#blog div form input.text{
+	
+		width:150px;
+	height:18px;
+
+	background:#fff;
+	
+}
+#blog div form input.submit{
+	
+		width:40px;
+	height:25px;
+	background:#fff;
+	cursor:pointer;
+	margin-left:10px;
+	margin-top:5px;
+	
+}
+
+
+
+#blog div dl {
+	width:175px;
+	height:150px;
+	padding-top:50px;
+	float:left;
+}
+#blog div dl dt {
+	text-align:center;
+	color:#f60;
+}
+#blog div dl dd {
+	text-align:center;
+	padding-top:5px;
+}
+#blog div dl dd img {
+	display:block;
+	margin:0 auto;
+}
+#blog div span#page {
+	display:block;
+	clear:both;
+	height:30px;
+}
+#blog div span#page ul {
+	height:30px;
+	float:right;
+	padding-right:50px;
+	padding-top:10px;
+}
+#blog div span#page ul li {
+	width:20px;
+	height:20px;
+	float:left;
+	margin-right:5px;
+	line-height:20px;
+	text-align:center;
+	font-weight:bold;
+}
+#blog div span#page ul li a {
+	text-decoration:none;
+	color:#f60;
+	display:block;
+	height:20px;
+	width:20px;
+	border:1px solid #f60;
+}
+#blog div span#page ul li a:hover {
+	border:1px solid green;
+	background:#f60;
+	color:#fff;
+}
+
+/*相片样式*/
+#photo {
+	margin-left:180px;
+	width:900px;
+	height:800px;
+}
+#photo h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#photo div {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:750px;
+}
+
+
+/*头像界面*/
+#face h1 {
+	font-size:14px;
+	text-align:center;
+	width:90%;
+	margin:10px auto;
+	line-height:30px;
+	height:30px;
+	border:1px dashed #ccc;
+	margin-left:100px;
+}
+#face dl {
+	padding-left:20px;
+	width:100px;
+	height:100px;
+	float:left;
+}
+#face dl dd img {
+	cursor:pointer;
+}
+
+/*管理条例*/
+#rules{
+	margin-left:180px;
+	width:900px;
+	height:850px;
+}
+#rules h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#rules div {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:800px;
+}
+
+#rules div dl{
+	width:800px;
+	margin:0px auto;
+	padding-top:30px;
+	margin-left:50px;
+	
+}
+#rules div dl dt{
+	font-weight:bold;
+	
+}
+#rules div dl dt dd{
+padding-top:10px;
+
+}
+#rules div dl dd input.submit {
+	width:60px;
+	height:25px;
+	background:#fff;
+	cursor:pointer;
+	margin-left:300px;
+	margin-top:0px;
+	
+}
+
+/*注册时的header*/
+#header1 {
+	margin-left:180px;
+	width:900px;
+	height:200px;
+	background:url(../images/logo.jpg) no-repeat 15px 15px;
+	border:1px solid #aaa;
+	margin-bottom:10px;
+}
+#header1 ul {
+	margin-top:170px;
+	margin-left:480px;
+	width:420px;
+	
+    	
+}
+#header1 ul li {
+	float:left;
+	width:60px;
+	height:20px;
+
+}
+#header1 ul li  a {
+	color:#333;
+	text-decoration:none;
+}
+
+/*个人中心样式*/
+#sidebarmember {
+	margin-left:180px;
+	width:300px;
+	height:600px;
+	float:left;
+	margin-bottom:10px;
+}
+#sidebarmember h1 {
+	background:#ccc;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+}
+#sidebarmember div {
+
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:550px;
+}
+#sidebarmember div dl {
+
+	margin-left:70px;
+	width:60%;
+
+	padding-top:20px;
+}
+#sidebarmember div dl dt {
+	height:35px;
+	font-weight:bold;
+	background:#ccc;
+	line-height:35px;
+	text-align:center;
+}
+#sidebarmember div dl dd {
+	background:#eee;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+#sidebarmember div dl dd a {
+	color:#333;
+	text-decoration:none;
+}
+#sidebarmember div dl dd a:hover {
+	color:#f60;
+}
+#contentmember {
+	margin-right:215px;
+	width:580px;
+	height:600px;
+	float:right;
+	margin-bottom:10px;
+}
+#contentmember h1 {
+background:#ccc;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+}
+#contentmember div {
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:580px;
+}
+#contentmember div dl {
+	width:80%;
+	margin-left:50px;
+	padding-top:20px;
+}
+#contentmember div dl dd {
+	height:40px;
+	line-height:40px;
+	border-bottom:1px dashed #999;
+	padding-top:8px;
+}
+#contentmember div dl dd input.text {
+	width:180px;
+	height:20px;
+
+	background:#fff;
+}
+#contentmember div dl dd input.submit{
+			width:60px;
+	height:23px;
+	background:#fff;
+	cursor:pointer;
+
+	margin-top:5px;
+	
+}
+#contentmember div dl dd img {
+	display:none;
+}
+
+/*博文管理界面*/
+#contentmanage {
+	
+	margin-right:215px;
+	width:580px;
+	height:600px;
+	float:right;
+	margin-bottom:10px;
+	
+}
+
+#contentmanage div{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:580px;
+}
+#contentmanage h1 {
+	background:#ccc;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-align:center;
+}
+#contentmanage div p {
+	height:40px;
+	width:100%;
+
+	line-height:40px;
+}
+
+#contentmanage div p a {
+	text-decoration:none;
+	color:#f00;
+}
+#contentmanage div p a:hover {
+	color:green;
+	text-decoration:underline;
+}
+#contentmanage div ul {
+	width:80%;
+	margin:0 auto;
+}
+#contentmanage div ul li {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dashed #999;
+}
+#contentmanage div ul li span {
+	float:right;
+}
+#contentmanage div ul li img{
+	margin-top:4px;
+}
+/*发表博文样式*/
+#post {
+	margin-left:180px;
+	width:900px;
+	height:800px;
+}
+#post h1 {
+	background:#ccc;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#post div {
+
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	height:750px;
+}
+#postbd {
+
+	margin:0 auto;
+}
+#postbd dl{
+	
+	margin-left:220px;
+	margin-top:25px;
+}
+
+#postbd dl dd {
+	padding-top:10px;
+	position:relative;
+}
+#postbd dl dd select {
+	width:70px;
+	height:20px;
+	border:1px dashed #666;
+	background:#fff;
+}
+#postbd dl dd input.text {
+	width:250px;
+	height:20px;
+	border:1px dashed #666;
+	background:#fff;
+}
+#postbd dl dd textarea {
+	width:510px;
+	height:500px;
+	border:1px dashed #666;
+	background:#fff;
+	border-top:none;
+	padding:5px;
+}
+#postbd dl dd div#ubb {
+	width:510px;
+	height:30px;
+	background:url(../ubb/bgMenubar.gif);
+	border:1px dashed #666;
+	border-bottom:none;
+
+	
+}
+#postbd dl dd div#ubb img.first {
+	padding-left:7px;
+}
+#postbd dl dd div#ubb img {
+	display:block;
+	float:left;
+	padding-top:8px;
+	padding-right:8px;
+
+
+	
+}
+#postbd dl dd input.submit {
+			width:60px;
+	height:23px;
+	background:#fff;
+	cursor:pointer;
+
+	margin-top:5px;
+}
+
+
+
+#postbd dl dd span#fontDiv {
+	display:none;
+	z-index: 1;
+	width: 125px;
+	height:40px;
+	font-size: 12px;
+	background-color: #eee;
+	border: dashed 1px #333;
+	position:absolute;
+	top:33x;
+	left:5px;	
+	line-height:20px;
+	padding:8px;
+}
+#postbd dl dd span#fontDiv strong {
+	font-weight:normal;
+	background:#fff;
+	border:1px solid #ccc;	
+	cursor:default;
+}
+#postbd dl dd span#colorDiv {
+	display:none;
+    z-index: 2;
+    width: 152px;
+    height:100px;
+    font-size: 12px;
+    background-color: #eee;
+    border: dashed 1px #333;
+	position:absolute;
+	top:33px;
+	left:118px;	
+	padding-top:4px;
+	padding-left:4px;
+}
+#postbd dl dd span#colorDiv strong {
+	border:1px solid #999;
+	width:12px;
+	height:12px;	
+	display:block;
+	float:left;
+	margin-left:4px;
+	margin-top:4px;
+}
+
+/*文章详情*/
+#article {
+	margin-left:180px;
+	width:900px;
+	height:2000px;
+}
+#article h1 {
+	background:#aaa;
+	height:25px;
+	line-height:25px;
+	font-size:14px;
+	text-indent:10px;
+	text-align:center;
+}
+#article div#acontent {
+	border-left:1px solid #aaa;
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	height:1950px;
+}
+#article dl.person{
+	width:240px;
+	height:150px;
+	padding-top:10px;
+
+	text-align:center;
+		float:left;
+}
+#article dl.person dd {
+	padding-top:5px;
+}
+
+#article dl.person dd.a {
+	text-align:left;
+	font-size:12px;
+	text-indent:55px;
+}
+
+#article div#acontent div{
+	width:650px;
+   
+	float:right;
+	
+}
+#article div#acontent p.line {
+	border-bottom:1px dashed #666;
+	clear:both;
+	width:100%;
+	
+
+}
+#article div#acontent div p.top {
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dashed #999;
+	color:#999;
+}
+#article div#acontent div p.content {
+	padding:15px;
+	padding-left:0px;
+	letter-spacing:1px;
+	text-indent:25px;
+}
+#article div#acontent div p.top img {
+	position:relative;
+	top:3px;
+}
+#article div#acontent div p.top em {
+	font-style:normal;
+	float:right;
+	padding-right:10px;
+	color:#06f;
+}
+
+#article div#acontent div h2{
+		font-size:14px;
+	color:#333;
+	height:30px;
+	line-height:30px;
+	
+}

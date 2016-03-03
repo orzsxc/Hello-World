@@ -1,0 +1,82 @@
+@CHARSET "UTF-8";
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	font-size:14px;
+	width:1004px;
+	height:618px;
+	position:relative;
+	background:#444444;
+
+}
+ul {
+	list-style-type:none;
+}
+img {
+	border:none;
+}
+
+#index {
+	width:1004px;
+	height:618px;
+	
+	background:url(../images/shouyebeijing.jpg) no-repeat ;
+	margin-left:120px;
+
+
+}
+
+
+
+#index  dl{
+	
+	margin-left:588px;
+	margin-top:0px;
+}
+
+
+#index  dl dd{
+   padding-top:3px;	
+}
+
+#index  dl dd input.text1{
+	
+	width:150px;
+	height:18px;
+	margin-top:301px;
+}
+
+#index  dl dd input.text{
+	width:150px;
+	height:18px;
+}
+
+#index  dl dd input.submit{
+	width:50px;
+	height:16px;
+	cursor:pointer;
+	margin-left:2px;
+    border:1px black;
+    color:#666;
+    background:white;
+    
+
+}
+#index  dl dd input.submit1{
+	width:50px;
+	height:16px;
+	cursor:pointer;
+	margin-left:0px;
+    border:1px black;
+    margin-left:20px;
+    color:#666;
+    background:white;
+}
+
+
+
+
+
+
